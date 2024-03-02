@@ -29,7 +29,7 @@ while True:
         break
     
     elif userInput>random_num:
-            print("You are above of number")
+            print("You are up to number")
     else:
             print("You are below number")
 
