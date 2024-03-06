@@ -2,6 +2,8 @@
 
 import random
 
+#taking range input
+
 top_range=input("Type your highest number range")
 if top_range.isdigit():
     top_range=int(top_range)
@@ -13,6 +15,8 @@ else:
     print("Please Enter a number not a letter")
     quit()
 
+#taking guessing number input
+    
 random_num = random.randint(0,top_range)
 guesses=0
 
