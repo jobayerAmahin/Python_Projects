@@ -20,3 +20,28 @@ if type(salary)==int:
 else:
     print("Please use correct format for input")
     quit()
+
+#Array and loop iteration
+
+browsers=["chrome","firefox","edge","IE","opera"]
+browsers.append("unknown")
+
+for browser in browsers:
+    print(browser)
+
+#Dictionary and loop iteration
+
+setAut={
+    "browser":"edge",
+    "os":"windows",
+    "device":"pc",
+    "type":"sanity"
+}
+
+print(setAut.get("os"))
+
+for aut in setAut.values():
+    print(aut)
+
+if "device" in setAut:
+    print("Pass")
