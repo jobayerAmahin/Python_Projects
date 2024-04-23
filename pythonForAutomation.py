@@ -45,3 +45,15 @@ for aut in setAut.values():
 
 if "device" in setAut:
     print("Pass")
+
+#Function
+
+tx=input()
+wd=input()
+def searchWord(x,y):
+    c=x.split()
+    if y in c:
+        print("word found")
+    else:
+        print("word not found")
+print(searchWord(tx,wd))
