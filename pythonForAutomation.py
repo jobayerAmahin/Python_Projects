@@ -57,3 +57,19 @@ def searchWord(x,y):
     else:
         print("word not found")
 print(searchWord(tx,wd))
+
+#Class
+
+class LoginPage:
+    def __init__(self, secret):
+        self.secret=secret
+
+    def login(self,user,password):
+        return user + "---" +password
+    
+    def loginWithSecret(self,user,password):
+        return user +"---" + password+ self.secret
+    
+cred=LoginPage("#¤%")
+print(cred.login("Mahin","234"))
+print(cred.loginWithSecret("Alam","432"))
