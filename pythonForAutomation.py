@@ -70,6 +70,6 @@ class LoginPage:
     def loginWithSecret(self,user,password):
         return user +"---" + password+ self.secret
     
-cred=LoginPage("#¤%")
+cred=LoginPage("#%")
 print(cred.login("Mahin","234"))
 print(cred.loginWithSecret("Alam","432"))
