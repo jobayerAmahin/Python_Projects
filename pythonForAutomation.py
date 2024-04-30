@@ -57,6 +57,7 @@ def searchWord(x,y):
     else:
         print("word not found")
 print(searchWord(tx,wd))
+quit()
 
 #Class
 
