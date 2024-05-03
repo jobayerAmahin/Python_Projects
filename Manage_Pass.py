@@ -5,13 +5,13 @@ def add():
     gen_pass=input("Provide General Password: ")
 
     with open("new_pass.txt","a") as f:
-        f.write(account+"|"+gen_pass+"\n")
+        f.write(account+"-"+gen_pass+"\n")
 
 def view():
     with open("new_pass.txt","r") as f:
         for line in f.readlines():
             data= (line.rstrip())
-            user,pwd=data.split("|")
+            user,pwd=data.split("-")
             print("User",user,"Password",pwd)
 
 
