@@ -38,3 +38,4 @@ while True:
             print("You are below number")
 
 print("You got it in", guesses, "guesses")
+quit()
