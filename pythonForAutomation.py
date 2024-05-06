@@ -73,4 +73,4 @@ class LoginPage:
     
 cred=LoginPage("#%")
 print(cred.login("Mahin","234"))
-print(cred.loginWithSecret("Alam","432"))
+print(cred.loginWithSecret("Alam","442"))
