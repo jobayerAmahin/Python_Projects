@@ -21,12 +21,13 @@ while True:
     else:
         print("Invalid input")
 
-max_score=70
+max_score=30
 participant_score=[0 for _ in range(participant)]
 
 while max(participant_score)<max_score:
     for par_index in range(participant):
         print("\nThis is your turn, Player number",par_index+1)
+        print("Your total score is",participant_score[par_index])
         current_score=0
 
         while True:
@@ -47,5 +48,9 @@ while max(participant_score)<max_score:
 
         participant_score[par_index]+=current_score
         print("Your total score is", participant_score[par_index])
+
+max_score=max(participant_score)
+wining_index=participant_score.index(max)
+print("Wining player is player number",wining_index+1,"with score",max_score)
 
 
