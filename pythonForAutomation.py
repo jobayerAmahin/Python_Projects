@@ -74,3 +74,13 @@ class LoginPage:
 cred=LoginPage("#%")
 print(cred.login("Mahin","234"))
 print(cred.loginWithSecret("Alam","442"))
+
+#DateTime
+import  datetime
+
+todayDate=datetime.datetime.today().date()
+time=datetime.datetime.today().time
+day=datetime.datetime.today()
+now=day.strftime('%Y-%m-%d-%H-%M-%S-%f')
+print("Today is/Tänään on - ",todayDate)
+print("Now is/ Nyt on", now)
