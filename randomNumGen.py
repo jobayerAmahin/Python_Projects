@@ -37,5 +37,5 @@ while True:
     else:
             print("You are below number")
 
-print("You got it in", guesses, "guesses")
+print("You got it in", guesses, "guesses times")
 quit()
