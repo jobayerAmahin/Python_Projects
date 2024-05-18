@@ -3,7 +3,7 @@
 #Variables
 
 employee=str(input())
-salary=int(input())
+salary=input()
 eligible=str(input("True/False ? "))
 
 print(employee + "with" ,salary, "is " + eligible +" for pension")
