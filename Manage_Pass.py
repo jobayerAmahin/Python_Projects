@@ -26,6 +26,6 @@ while True:
     else:
         print("Invalid Preference")
         continue
-
+quit()
 
 
