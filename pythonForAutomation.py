@@ -74,6 +74,7 @@ class LoginPage:
 cred=LoginPage("#%")
 print(cred.login("Mahin","234"))
 print(cred.loginWithSecret("Alam","442"))
+quit()
 
 #DateTime
 
@@ -87,6 +88,7 @@ print("Today is/Tänään on - ",todayDate)
 print("Now is/ Nyt on", now)
 
 #Custom Module
+
 from Projects import myModule
 myModule.automationCapture()
 myModule.saveImage()
