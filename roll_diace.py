@@ -42,7 +42,7 @@ while max(participant_score)<max_score:
                 break
             else:
                 current_score+=value
-                print("You rolled a", value)
+                print("You rolled", value)
             
             print("Your score is: ", current_score)
 
